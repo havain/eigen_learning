@@ -31,3 +31,11 @@ git log --pretty=oneline <file> 看到的是commit id
 
 
 (11)github远程仓库，用来存储和多人协作
+
+(12)先在github上创建仓库(repositories)，然后git clone https://github.com/havain/learn_eigen
+然后把自己的工作文件放在learn_eigen目录下，执行下面三个操作就可以上传到github上了
+git add *
+git commit -m "some info"
+git push origin master
+
+
